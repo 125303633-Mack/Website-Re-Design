@@ -1,0 +1,153 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #222222;
+    color: #333333;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+/* dont need this anymore */
+/*.header2 {
+    background-color: #990000;
+    color: #ffff00;
+    padding: 20px;
+    text-align: left;
+}*/
+
+.nav {
+    /* made padding smaller */
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #cc0000;
+    overflow: auto;
+}
+
+/* dont need this anymore */
+/*.nav2 {
+    background-color: #555555;
+    padding: 25px;
+}*/
+
+.nav a {
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+}
+
+/* dont need this anymore */
+/*.nav2 a {
+    color: yellow;
+    margin: 5px;
+    font-size: 14px;
+}*/
+
+/* Made it so the content within the page moves when viewing in a smaller or larger window */
+.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 15px; 
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+/* To allow me to center the image */
+.main img {
+    display: block;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: justify;
+    padding: 20pt;
+    margin: auto;
+    width: 60%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    /* added to enable readability if the window shrinks */
+    box-sizing: border-box;
+}
+
+.box {
+    width: 25%;
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #cc0000;
+    /* added overflow to enable readability if the window shrinks */
+    overflow: auto;
+}
+
+/* Makes sure the text in this class stops wrapping around the box class above it */
+.links {
+    clear: both;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    /* added overflow to enable readability if the window shrinks */
+    overflow: auto;
+}
+
+.contact {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #f5f5f5;
+    padding: 30px;
+    /* added overflow to enable readability if the window shrinks */
+    overflow: auto;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.contact img {
+    display: block;
+    margin: 0 auto;
+}
+
+.reach {
+    float: left;
+}
+
+.open {
+    float: right;
+}
+
+/* dont need this anymore. It took precedence over the color from body and made the email link grey.*/
+/*.contact a {
+    color: #777777;
+
+} */
+
+p {
+    line-height: 1.4;
+}
+
+p footer {
+    background: #f7f4f4;
+}
+
+img {
+    margin: 10px;
+}
